@@ -22,9 +22,9 @@ with open('config.json', 'r') as f:
 
 token = stuff.get('MTUwMDUwOTQyMjIwNjU4NzAyMg.Geo6R1.xROfLAHQnRL3HsgNN7E1lCkOe9xFPA8_oLgPTA')
 secret = stuff.get('3LX_akzUF4I8fRhL7RBAe-KnBrPHBD0M')
-id = stuff.get('id')
-redirect = stuff.get('redirect')
-api = stuff.get('api_endpoint')
+id = stuff.get('1500509422206587022')
+redirect = stuff.get('http://127.0.0.1:8000/callback')
+api = stuff.get('https://canary.discord.com/api/v8t')
 logs = stuff.get('logs')
 
 #$ define fastapi and discord bot
