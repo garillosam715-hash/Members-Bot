@@ -20,8 +20,8 @@ from fastapi.responses import HTMLResponse
 with open('config.json', 'r') as f:
     stuff = json.load(f)
 
-token = stuff.get('token')
-secret = stuff.get('secret')
+token = stuff.get('MTUwMDUwOTQyMjIwNjU4NzAyMg.Geo6R1.xROfLAHQnRL3HsgNN7E1lCkOe9xFPA8_oLgPTA')
+secret = stuff.get('3LX_akzUF4I8fRhL7RBAe-KnBrPHBD0M')
 id = stuff.get('id')
 redirect = stuff.get('redirect')
 api = stuff.get('api_endpoint')
